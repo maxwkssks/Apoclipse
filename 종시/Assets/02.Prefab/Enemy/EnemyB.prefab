@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7245251120659219155
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1179961837867853658, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1147401495359466748, guid: 138040323294fd440a3a823e5d70ad01, type: 3}
+    - target: {fileID: 1308620013217192951, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308620013217192951, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472580745082094207, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619999878325570654, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: Health
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910024092482658139, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      propertyPath: m_Name
+      value: EnemyB
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8910024092482658139, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1003990266092177005}
+  m_SourcePrefab: {fileID: 100100000, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+--- !u!1 &2245763725568843144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8910024092482658139, guid: 9bd9e12a637f57a41a193a88fd14afe2, type: 3}
+  m_PrefabInstance: {fileID: 7245251120659219155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1003990266092177005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2245763725568843144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4723e5ce44bf74e4eb172ac2883d17cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 2
+  AttackStopTime: 1
+  MoveTime: 2
+  Projectile: {fileID: 3171663853821759035, guid: 3090d056f2d6ff143a4f917bc32a9ce1, type: 3}
+  ProjectileMoveSpeed: 5
